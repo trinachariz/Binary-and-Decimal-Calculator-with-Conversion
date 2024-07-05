@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BINARY AND DECIMAL CALCULATOR WITH CONVERSION </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+
+<div class="calculator">
+<body>
+
+    <h2>Conversion</h2>
+    <input type="number" class="screen" id="input1" placeholder="0">
+    <h2>Binary Addition</h2>
+    <input type="number" class="screen" id="binaryInput1">
+    <h1>+ </h1>
+    <input type="number" class="screen" id="binaryInput2">
+     
+
+    <h3>Result: <span id="result"></span></h3>
+    
+
+        <table id="operator" border="0" width="100%"  cellpadding="0"  cellspacing="8">
+        <tr>
+            
+    <br> 
+    <td><center><button class="operator" onclick="binaryToDecimal()">Binary to Decimal</button></center></td>
+    <td><button class="operator" onclick="decimalToBinary()">Decimal to Binary</button></td>
+    <td> <button class="operator" onclick="binaryToHexadecimal()">Binary to Hexadecimal</button></td>
+</tr>
+<tr>
+    <td><button class="operator" onclick="hexadecimalToBinary()">Hexadecimal to Binary</button></td>
+    <td><button class="operator" onclick="binaryToOctal()">Binary to Octal</button></td>
+    <td> <button class="operator"onclick="octalToBinary()">Octal to Binary</button></td>
+</tr>
+<tr> 
+    <td><button class="number" onclick="binaryAddition()">Binary Addition</button></td>
+    <td> <button class="number" onclick="wipe()">Delete</button></td>
+     <td> <button class="operator"</button><a href="Decimal.html" target="_parent" style="text-decoration:none">Decimal</a></td>
+</tr>
+</table>
+    </table>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
